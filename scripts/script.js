@@ -1,5 +1,3 @@
-
-
 let seatCount = 0;
 let totalPriceAmount = 0;
 let grandTotalAmount = 0;
@@ -46,7 +44,7 @@ for (const seat of seats) {
 
         const li = document.createElement('li');
     
-        li.innerText = `${seat.innerText} Economy 550` ;
+        li.innerText = `${seat.innerText}  \u00A0\u00A0\u00A0\u00A0\u00A0Economy \u00A0\u00A0\u00A0\u00A0550` ;
         selectedSeatDetails.appendChild(li);
         
         totalPriceAmount = totalPriceAmount +550;
@@ -92,15 +90,3 @@ for (const seat of seats) {
 
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
